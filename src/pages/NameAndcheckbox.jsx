@@ -1,8 +1,8 @@
 import React from "react";
 
-function NameAndCheckbox({ title, count }) {
+function NameAndCheckbox({ onClick, title, count }) {
   return (
-    <div>
+    <div onClick={onClick}>
       <div className="category-items">
         <input type="checkbox" className="items-checkbox" />
         <p className="item-names"> {title}</p>

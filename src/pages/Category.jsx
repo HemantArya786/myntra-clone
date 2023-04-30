@@ -3,6 +3,7 @@ import "./Category.css";
 import Card from "./Cards";
 import { IoIosArrowDown } from "react-icons/io";
 import NameAndCheckbox from "./NameAndcheckbox";
+import productData from "../Data/ProductData";
 
 function Category({ categoryName, numberCount }) {
   return (
@@ -23,19 +24,19 @@ function Category({ categoryName, numberCount }) {
         </div>
         <div className="box-three">
           <h5 className="filter-items-names">CATEGORIES</h5>
+
           <NameAndCheckbox title="Product Name" count="1930" />
-          <NameAndCheckbox title="Product Name" count="1930" />
-          <NameAndCheckbox title="Product Name" count="1930" />
-          <NameAndCheckbox title="Product Name" count="1930" />
-          <NameAndCheckbox title="Product Name" count="1930" />
+          {productData.map((cat) => (
+            <NameAndCheckbox title={cat.title} count={0} />
+          ))}
         </div>
         <div className="box-three">
           <h5 className="filter-items-names">BRANDS</h5>
           <NameAndCheckbox title="Nike" count="1100" />
-          <NameAndCheckbox title="Nike" count="1100" />
-          <NameAndCheckbox title="Nike" count="1100" />
-          <NameAndCheckbox title="Nike" count="1100" />
-          <NameAndCheckbox title="Nike" count="1100" />
+
+          {productData.map((brand) => (
+            <NameAndCheckbox title={brand.brand} count={0} />
+          ))}
         </div>
         <div className="box-three">
           <h5 className="filter-items-names">PRICE</h5>
@@ -89,16 +90,14 @@ function Category({ categoryName, numberCount }) {
           </div>
         </div>
         <div className="cat-box-two">
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
-          <Card Title="Nike" discr="black color" price="300" sizes="XXl" />
+          {productData.map((product) => (
+            <Card
+              Title={product.title}
+              discr={product.discr}
+              price={product.price}
+              sizes={product.size}
+            />
+          ))}
         </div>
       </section>
     </main>
