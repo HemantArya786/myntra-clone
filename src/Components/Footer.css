@@ -1,0 +1,36 @@
+ p {
+    font-size:15px ;
+    color: rgb(128, 128, 134);
+    padding: 0px;
+    margin: 4px;
+}
+
+.footer{
+    display: flex;
+
+    padding-left: 220px;
+    padding-right: 100px;
+    background-color:whitesmoke;
+   
+
+}
+.Down-logo,img{
+height: 50px;
+
+
+}
+
+.down-logo-icon{
+    display: flex;
+    gap: 10px;
+
+}
+
+.hell{
+    width: 170px;
+}
+
+.icon-size{
+    height: 22px;
+    
+}

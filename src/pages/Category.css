@@ -1,0 +1,161 @@
+.container {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.category-top {
+  width: 80%;
+}
+
+.filter-top {
+  display: flex;
+  border-bottom: 1px solid gray;
+  flex-direction: column;
+  width: 17%;
+}
+
+.filter-items-names {
+  padding-left: 20px;
+}
+
+.box-one {
+  padding-left: 20px;
+  height: 19%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-bottom: 1px solid gray;
+}
+.cat-box-one {
+  display: flex;
+  height: 20%;
+  justify-content: start;
+
+  align-items: end;
+}
+.box-one-product-name {
+  display: flex;
+}
+.box-one-product-name-one {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  margin: 0px;
+}
+.box-one-product-name-count {
+  margin: 0px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.box-one-product-name .box-one {
+  border: 3px solid green;
+  height: 19%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 15px;
+}
+
+.box-three {
+  height: 30%;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.cat-box-two {
+  gap: 15px;
+  padding-left: 20px;
+  padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-items {
+  display: flex;
+  height: 30%;
+
+  padding-left: 15px;
+}
+
+.item-names {
+  height: 20px;
+  margin-left: 10px;
+  color: black;
+  font-weight: 450;
+}
+.item-count {
+  font-size: 13px;
+}
+
+.category-items input {
+  height: 17px;
+  width: 17px;
+  color: rgb(184, 60, 137);
+}
+.cat-box-button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-left: 10px;
+  color: black;
+  font-weight: 450;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+}
+
+.cat-box-button-two {
+  margin-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 40px;
+  background-color: rgb(251, 252, 253);
+}
+
+.cat-box-button-two-dropdown {
+  display: none;
+}
+
+.cat-box-button-two:hover .cat-box-button-two-dropdown {
+  display: block;
+  background-color: transparent;
+}
+.cat-box-button-two-nametwo {
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.category-top-top-box {
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  height: 18%;
+  padding-bottom: 10px;
+}
+
+.cat-box-button-two-nameone {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.cat-box-button-inner-items {
+  display: flex;
+}
+
+.cat-box-button:hover {
+  background-color: rgb(236, 235, 235);
+}

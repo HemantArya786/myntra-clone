@@ -1,0 +1,122 @@
+.banner-image {
+  height: 450px;
+
+  padding: 70px;
+}
+
+.banner-image-inner {
+  width: 100%;
+  height: 100%;
+}
+.flat-offer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.flat-offer-para {
+  font-weight: 600;
+  font-size: 50px;
+  color: black;
+}
+
+.flat-offer-one {
+  left: 100px;
+  top: 400px;
+  position: absolute;
+  background-color: rgb(240, 196, 74);
+  border-radius: 5px;
+  border: 0px;
+}
+.flat-offer-two {
+  left: 100px;
+  top: 300px;
+  position: absolute;
+  background-color: rgb(240, 196, 74);
+
+  border-radius: 5px;
+  border: 0px;
+}
+.flat-offer-three {
+  left: 100px;
+  top: 200px;
+  position: absolute;
+  background-color: rgb(240, 196, 74);
+
+  border-radius: 5px;
+  border: 0px;
+}
+.flat-offer-four {
+  right: 100px;
+  top: 400px;
+  position: absolute;
+  background-color: rgb(240, 196, 74);
+
+  border-radius: 5px;
+  border: 0px;
+}
+.flat-offer-five {
+  right: 100px;
+  top: 300px;
+  position: absolute;
+  background-color: rgb(240, 196, 74);
+
+  border-radius: 5px;
+  border: 0px;
+}
+.flat-offer-six {
+  right: 100px;
+  top: 200px;
+  position: absolute;
+  background-color: rgb(240, 196, 74);
+
+  border-radius: 5px;
+  border: 0px;
+}
+.headline-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.headline-one-title {
+  font-weight: 650;
+  font-size: 35px;
+  margin: 0px;
+  color: black;
+}
+
+.headline-one-para {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0px;
+  color: black;
+}
+.headline-one-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+
+  background-color: black;
+  color: white;
+}
+
+.headline-one-button-text {
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+}
+
+.headline-one-button-icon {
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+  padding-top: 3px;
+}
