@@ -5,8 +5,7 @@ import { BsPerson } from "react-icons/bs";
 import { SlHeart } from "react-icons/sl";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FiSearch } from "react-icons/fi";
-import Category from "../pages/Category";
-import whishlist from "../pages/Whishlist";
+
 function Navbar() {
   return (
     <main className="navbar-section">
@@ -117,7 +116,7 @@ function Navbar() {
         <div className="icon-set">
           <SlHeart />
           <h6 className="text-icon ">
-            <a href="/whishlist">Whishlist</a>
+            <a href="/Whishlists">Whishlist</a>
           </h6>
         </div>
         <div className="icon-set">
