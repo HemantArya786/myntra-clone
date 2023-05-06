@@ -116,7 +116,7 @@ function Navbar() {
         <div className="icon-set">
           <SlHeart />
           <h6 className="text-icon ">
-            <a href="/Whishlists">Whishlist</a>
+            <a href="/whishlist">Whishlist</a>
           </h6>
         </div>
         <div className="icon-set">
