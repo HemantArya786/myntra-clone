@@ -15,9 +15,9 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/whishlist" element={<Whishlists />} />
-          <Route path="/category" element={<Category />} />
-          <Route path="/productpage" element={<Productpage />} />
+          <Route path="/Whishlist" element={<Whishlists />} />
+          <Route path="/Category" element={<Category />} />
+          <Route path="/Productpage" element={<Productpage />} />
         </Routes>
 
         <div>
